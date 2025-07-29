@@ -1,0 +1,4 @@
+msfrpcd -P msf -S -p 55553
+lsof -i :55553
+kill <PID>
+python3 "/home/zakriya/Desktop/NVAS-1/NVAS-1 Main/pent_test_sratch/pentest_module/pentest.py"

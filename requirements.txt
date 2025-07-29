@@ -1,0 +1,3 @@
+msfrpc
+python-nmap
+prettytable
