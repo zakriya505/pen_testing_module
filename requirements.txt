@@ -1,3 +1,12 @@
-msfrpc
-python-nmap
-prettytable
+# Nmap wrapper
+python-nmap>=0.7.1
+
+# Pretty console tables
+prettytable>=3.9.0
+
+# SQLite support (standard library, no need to add)
+
+# Metasploit RPC client
+pymetasploit3>=1.0.5
+
+# IP address manipulation (standard library, no

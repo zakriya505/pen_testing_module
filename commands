@@ -1,4 +1,7 @@
 msfrpcd -P msf -S -p 55553
 lsof -i :55553
 kill <PID>
-python3 "/home/zakriya/Desktop/NVAS-1/NVAS-1 Main/pent_test_sratch/pentest_module/pentest.py"
+python3 "/home/zakriya/Desktop/NVAS-1/NVAS-1 Main/forgithubthree/pen_testing_module/pentest.py"
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
